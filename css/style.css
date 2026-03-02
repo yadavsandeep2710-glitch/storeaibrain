@@ -113,6 +113,7 @@ h4,
 .glass-card {
     background: var(--bg-card);
     backdrop-filter: var(--glass-blur);
+    background-clip: padding-box;
     border: 1px solid var(--border-light);
     border-radius: 24px;
     padding: 2.5rem;
@@ -367,6 +368,42 @@ footer {
     transition: var(--transition-smooth);
 }
 
+/* Blog Content Styles */
+.blog-content {
+    line-height: 1.8;
+    font-size: 1.15rem;
+    color: var(--text-secondary);
+}
+
+.blog-content h2 {
+    color: var(--text-primary);
+    margin-top: 3rem;
+    font-family: 'Outfit', sans-serif;
+}
+
+.blog-content h3 {
+    color: var(--text-primary);
+    margin-top: 2rem;
+}
+
+.blog-content p {
+    margin-bottom: 1.5rem;
+}
+
+.blog-content strong {
+    color: var(--accent-blue);
+}
+
+.blog-content ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.blog-content li {
+    margin-bottom: 10px;
+}
+
+/* WhatsApp CTA Floating */
 .whatsapp-cta:hover {
     transform: scale(1.1);
 }

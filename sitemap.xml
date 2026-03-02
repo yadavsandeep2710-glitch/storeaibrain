@@ -36,4 +36,14 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+    <url>
+        <loc>https://store.aibrainx.in/blog-ai-prompts-students-india.html</loc>
+        <lastmod>2025-03-02</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://store.aibrainx.in/blog-ai-side-hustles-india-2025.html</loc>
+        <lastmod>2025-03-02</lastmod>
+        <priority>0.70</priority>
+    </url>
 </urlset>
