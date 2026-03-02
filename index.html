@@ -5,200 +5,237 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- PHASE 1: SEO Optimization -->
-    <title>AI BrainX Store | Digital AI Products</title>
+    <!-- SEO Meta Tags -->
+    <title>AIBrainX Store | Premium AI Digital Products for Indians</title>
     <meta name="description"
-        content="Master AI with the AI Productivity Handbook. Boost your efficiency with premium digital PDF guides designed for the Indian AI creator. Instant access.">
+        content="AIBrainX is India's leading digital store for AI prompts and side hustle guides. Learn to earn money with AI and boost your productivity.">
 
-    <!-- Open Graph Tags -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://store.aibrainx.in/">
-    <meta property="og:title" content="AI BrainX Store | AI Productivity Assets">
-    <meta property="og:description"
-        content="Get the AI Productivity Handbook and automate your workflow. Expertly crafted for creators.">
-    <meta property="og:image" content="assets/og-image.jpg">
-
-    <!-- CSS -->
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://store.aibrainx.in/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "3000+ Google Bard AI Prompts",
+        "item": "https://store.aibrainx.in/3000-google-bard-ai-prompts.html"
+      }]
+    }
+    </script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "AIBrainX Store",
+      "url": "https://store.aibrainx.in/",
+      "logo": "https://store.aibrainx.in/assets/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "contact@aibrainx.in",
+        "contactType": "customer service"
+      }
+    }
+    </script>
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://store.aibrainx.in/"
+      }]
+    }
+    </script>
 </head>
 
 <body>
 
-    <!-- Header Navigation -->
     <header>
         <div class="container navbar">
-            <a href="/" class="logo">AI BrainX<span>.</span>Store</a>
+            <a href="index.html" class="logo">AIBrainX<span>.</span></a>
             <nav>
                 <ul class="nav-links">
-                    <li><a href="/">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#products">Products</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
-            <a href="#buy-now" class="btn btn-primary" style="padding: 10px 20px;">Get Access</a>
+            <a href="#products" class="btn btn-primary">Start Learning</a>
         </div>
     </header>
 
     <main>
-        <!-- Hero Section: The Value Proposition -->
+        <!-- Hero Section -->
         <section class="hero">
-            <div class="container">
-                <h1>Master Artificial Intelligence & Reclaim Your Time</h1>
-                <p>Specifically designed for the Indian digital ecosystem. Go from AI beginner to power user with our
-                    expert-crafted productivity handbook.</p>
-                <div class="hero-btns">
-                    <a href="#buy-now" class="btn btn-primary">Download the Handbook</a>
-                    <a href="about.html" class="btn btn-outline" style="margin-left: 15px;">Who We Are</a>
+            <div class="container hero-content">
+                <span class="badge-item"
+                    style="color: var(--accent-blue); margin-bottom: 20px; display: inline-block;">Trusted by 10,000+
+                    Indian Learners</span>
+                <h1>Master the <span class="text-gradient">AI Revolution</span> in India</h1>
+                <p>Equipping students, freelancers, and entrepreneurs with premium AI assets to scale their income and
+                    productivity.</p>
+                <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                    <a href="#products" class="btn btn-primary btn-large">Browse AI Products</a>
+                    <a href="about.html" class="btn btn-outline btn-large">Who We Are</a>
+                </div>
+            </div>
+            <div class="glow" style="top: -10%; left: 10%;"></div>
+            <div class="glow"
+                style="bottom: 0%; right: 10%; background: radial-gradient(circle, var(--accent-purple) 0%, transparent 70%);">
+            </div>
+        </section>
+
+        <!-- Value Proposition -->
+        <section class="container" style="padding: 100px 0;">
+            <div class="section-title">
+                <h2>Why Choose AIBrainX?</h2>
+                <p>Built specifically for the Indian digital ecosystem</p>
+            </div>
+
+            <div class="product-grid">
+                <div class="glass-card">
+                    <i class="fas fa-graduation-cap"
+                        style="font-size: 2rem; color: var(--accent-blue); margin-bottom: 20px;"></i>
+                    <h3>Student Friendly</h3>
+                    <p>Simplified guides for coding, research, and exam preparation using AI.</p>
+                </div>
+                <div class="glass-card">
+                    <i class="fas fa-rupee-sign"
+                        style="font-size: 2rem; color: var(--accent-purple); margin-bottom: 20px;"></i>
+                    <h3>Income Focused</h3>
+                    <p>Real-world side hustles and strategies to earn money using AI tools.</p>
+                </div>
+                <div class="glass-card">
+                    <i class="fas fa-check-double"
+                        style="font-size: 2rem; color: var(--accent-blue); margin-bottom: 20px;"></i>
+                    <h3>Tested Results</h3>
+                    <p>Every prompt and strategy is battle-tested by our team of AI experts.</p>
                 </div>
             </div>
         </section>
 
-        <!-- Product Section: Single Product Focus -->
-        <section id="product" class="section-padding">
+        <!-- Featured Products -->
+        <section id="products" style="background: rgba(255,255,255,0.02); padding: 100px 0;">
             <div class="container">
-                <div class="product-showcase glass">
-                    <div class="product-info">
-                        <span class="product-badge">Premium Digital PDF</span>
-                        <h2>AI Productivity Handbook</h2>
-                        <p class="product-tagline">The ultimate blueprint for automation and efficient prompt
-                            engineering.</p>
+                <div class="section-title">
+                    <h2>Featured <span class="text-blue">AI Resources</span></h2>
+                    <p>Hand-picked premium assets for your growth</p>
+                </div>
 
-                        <ul class="benefit-list">
-                            <li><strong>Save 10+ Hours:</strong> Learn to automate repetitive tasks using AI tools.</li>
-                            <li><strong>Expert Prompting:</strong> Master the art of communicating with ChatGPT, Claude,
-                                and Midjourney.</li>
-                            <li><strong>Beginner Friendly:</strong> No coding or technical background required to start.
-                            </li>
-                            <li><strong>Tailored for India:</strong> Practical examples and use cases relevant to the
-                                Indian digital market.</li>
+                <div class="product-grid">
+                    <!-- Product 1 -->
+                    <div class="glass-card product-card">
+                        <img src="https://www.digistore24-app.com/pb/img/merchant_3295831/image/product/IJWBREVF.jpg"
+                            alt="3000+ Google Bard AI Prompts" class="product-image">
+                        <span class="badge-item"
+                            style="color: var(--accent-blue); font-size: 0.7rem; margin-bottom: 15px; display: inline-block;">BEST
+                            FOR STUDENTS</span>
+                        <h3>3000+ Google Bard AI Prompts</h3>
+                        <p style="margin: 15px 0;">The ultimate PDF collection for mastering Gemini AI. Save time and
+                            boost your grades.</p>
+                        <ul class="benefit-list" style="margin: 20px 0;">
+                            <li><i class="fas fa-check"></i> Copy-Paste Ready</li>
+                            <li><i class="fas fa-check"></i> 100% Mobile Friendly</li>
                         </ul>
-
-                        <!-- Trust Signals -->
-                        <div class="trust-signals">
-                            <div class="trust-item">🚀 Instant Access</div>
-                            <div class="trust-item">📁 Digital Download</div>
-                            <div class="trust-item">🎓 No Tech Skills Needed</div>
+                        <div style="display: flex; gap: 10px;">
+                            <a href="3000-google-bard-ai-prompts.html" class="btn btn-outline"
+                                style="flex: 1;">Details</a>
+                            <a href="https://www.checkout-ds24.com/redir/549059/Lifeisbeautiful444/" target="_blank"
+                                class="btn btn-primary" style="flex: 1.5;">Get Access</a>
                         </div>
+                    </div>
 
-                        <!-- Main CTA -->
-                        <div class="cta-container" id="buy-now">
-                            <a href="https://www.checkout-ds24.com/product/658074" target="_blank"
-                                class="btn btn-primary btn-large">Get Instant Access</a>
-                            <p class="affiliate-note">
-                                *Secure Checkout via Digistore24. As an affiliate partner, we may earn a commission from
-                                this purchase at no extra cost to you.
-                            </p>
+                    <!-- Product 2 -->
+                    <div class="glass-card product-card">
+                        <img src="https://www.digistore24-app.com/pb/img/merchant_4723594/image/product/RXL73NC5.png"
+                            alt="AI Side Hustles 2025 Guide" class="product-image">
+                        <span class="badge-item"
+                            style="color: var(--accent-purple); font-size: 0.7rem; margin-bottom: 15px; display: inline-block;">BEST
+                            FOR INCOME</span>
+                        <h3>AI Side Hustles 2025 – Step-by-Step</h3>
+                        <p style="margin: 15px 0;">Your blueprint to earned ₹50k+ monthly using AI tools. No technical
+                            skills required.</p>
+                        <ul class="benefit-list" style="margin: 20px 0;">
+                            <li><i class="fas fa-check"></i> 20+ Profitable Ideas</li>
+                            <li><i class="fas fa-check"></i> Step-by-Step setup</li>
+                        </ul>
+                        <div style="display: flex; gap: 10px;">
+                            <a href="ai-side-hustles-2025.html" class="btn btn-outline" style="flex: 1;">Details</a>
+                            <a href="https://www.checkout-ds24.com/redir/628615/Lifeisbeautiful444/" target="_blank"
+                                class="btn btn-primary" style="flex: 1.5;">Get Access</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Featured Products Section -->
-        <section class="section-padding" id="products">
-            <div class="container">
-                <h2 style="text-align: center; margin-bottom: 50px;">Featured AI Products</h2>
-                <div class="feature-grid">
-                    <!-- Product 1: Handbook -->
-                    <div class="feature-card">
-                        <div class="feature-icon">📁</div>
-                        <h4>AI Productivity Handbook</h4>
-                        <p>The ultimate blueprint for automation and efficient prompt engineering for the Indian
-                            creator.</p>
-                        <a href="#product" class="btn btn-outline"
-                            style="margin-top: 20px; display: block; text-align: center;">View Details</a>
-                    </div>
-                    <!-- Product 2: Tube Magic -->
-                    <div class="feature-card">
-                        <div class="feature-icon">🎬</div>
-                        <h4>Tube Magic AI</h4>
-                        <p>Complete AI toolbox for YouTube growth. Generate scripts, titles, and SEO tags optimized for
-                            the algorithm.</p>
-                        <a href="tube-magic.html" class="btn btn-outline"
-                            style="margin-top: 20px; display: block; text-align: center;">View Details</a>
-                    </div>
-                    <!-- Product 3: AI Automation Mastery -->
-                    <div class="feature-card" style="border-color: var(--secondary);">
-                        <div class="feature-icon">⚙️</div>
-                        <h4>AI Automation Mastery</h4>
-                        <p>The blueprint to automating your workflow. Reclaim 10+ hours every week by building your own
-                            AI workforce.</p>
-                        <a href="ai-automation-mastery.html" class="btn btn-primary"
-                            style="margin-top: 20px; display: block; text-align: center;">Master Automation</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Product Features Section -->
-        <section class="section-padding" style="background: rgba(255,255,255,0.02);">
-            <div class="container" style="text-align: center;">
-                <h2 style="margin-bottom: 50px;">Why Choose AI BrainX?</h2>
-                <div class="feature-grid">
-                    <div class="feature-card">
-                        <div class="feature-icon">🤖</div>
-                        <h4>AI Foundations</h4>
-                        <p>Understand how LLMs work and how to leverage them for your specific goals.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">📝</div>
-                        <h4>The Prompting Playbook</h4>
-                        <p>A collection of battle-tested prompt templates you can use immediately.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">📈</div>
-                        <h4>Workflow Scaling</h4>
-                        <p>How to use AI to scale your creative output without burning out.</p>
-                    </div>
+        <!-- Trust Indicators -->
+        <section class="container" style="padding: 100px 0; text-align: center;">
+            <div class="glass-card" style="border-color: var(--accent-blue);">
+                <h2>Join the 1% Who Use <span class="text-gradient">AI Professionally</span></h2>
+                <p style="margin: 20px 0; max-width: 700px; margin-left: auto; margin-right: auto;">Don't wait for the
+                    future. Build it. Our digital products are designed to give you an unfair advantage in the modern
+                    job market.</p>
+                <div class="trust-badges">
+                    <span class="badge-item"><i class="fas fa-shield-alt"></i> Secure Checkout</span>
+                    <span class="badge-item"><i class="fas fa-bolt"></i> Instant Delivery</span>
+                    <span class="badge-item"><i class="fas fa-thumbs-up"></i> Expert Support</span>
                 </div>
             </div>
         </section>
     </main>
 
-    <!-- Footer: Legal & Navigation -->
     <footer>
         <div class="container">
             <div class="footer-grid">
-                <div class="footer-col" style="grid-column: span 2;">
-                    <a href="/" class="logo">AI BrainX<span>.</span>Store</a>
-                    <p style="color: var(--text-muted); margin-top: 20px; max-width: 350px;">
-                        Helping the Indian digital community stay ahead of the AI curve with high-quality, actionable
-                        digital assets.
-                    </p>
+                <div>
+                    <a href="index.html" class="logo">AIBrainX<span>.</span></a>
+                    <p style="margin-top: 20px; color: var(--text-secondary);">Empowering India's digital future through
+                        practical AI education. Build your skills, earn more, and stay ahead.</p>
                 </div>
-                <div class="footer-col">
-                    <h4>Shop</h4>
-                    <ul class="footer-links">
-                        <li><a href="/">Home</a></li>
+                <div>
+                    <h4>Explore</h4>
+                    <ul class="nav-links" style="display: block;">
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
-                    <h4>Trust & Legal</h4>
-                    <ul class="footer-links">
+                <div>
+                    <h4>Legal</h4>
+                    <ul class="nav-links" style="display: block;">
                         <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                        <li><a href="terms.html">Terms & Conditions</a></li>
-                        <li><a href="refund-policy.html">Refund Policy</a></li>
                         <li><a href="affiliate-disclosure.html">Affiliate Disclosure</a></li>
+                        <li><a href="disclaimer.html">Disclaimer</a></li>
+                        <li><a href="refund-policy.html">Refund Policy</a></li>
                     </ul>
                 </div>
             </div>
-
             <div class="footer-bottom">
-                <p>&copy; 2026 AI BrainX Store. All rights reserved.</p>
-                <p class="disclosure-footer">
-                    <strong>Affiliate Disclaimer:</strong> This website is an affiliate-based digital store. We
-                    recommend high-utility AI products and may receive a commission on successful sales made through our
-                    links, which supports our mission to provide AI education in India.
-                </p>
+                <p>&copy; 2025 AIBrainX Store. All rights reserved.</p>
+                <p style="font-size: 0.7rem; margin-top: 10px; color: var(--text-muted);">Affiliate Disclosure: We
+                    recommend products we believe in and may receive a commission for sales made through our links.</p>
             </div>
         </div>
     </footer>
 
+    <a href="https://wa.me/91XXXXXXXXXX" class="whatsapp-cta" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 </body>
 
 </html>
